@@ -1,0 +1,151 @@
+* {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box; 
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.page {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #2F3131
+}
+p {
+	color: white;
+
+
+}
+h1	{
+	color: #fdf5e6;
+	vertical-align: center;
+	padding: 20px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	
+
+
+}
+
+
+
+.menu	{
+	height: 100px;
+	width: 100%;
+	background-color: #2F3131;
+
+
+	
+	
+}
+
+.sidebar	{
+	height: 500px;
+	width: 20%;
+	background-color: #426E86;
+	float: left
+
+	
+}
+.nav {
+	text-align: center;
+	margin:20px;
+	padding: 10px;
+	border: 1px solid #edb83d ;
+
+}
+.book {
+	margin:20px;
+	padding: 10px;
+	border: 1px solid #edb83d;
+	background-color: #edb83d;
+
+}
+.content	{
+	height:500px;
+	width: 80%;
+	background-color: #2f3131;
+	overflow: auto;
+	background-image: url("https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+	background-size: cover;
+	margin: 0px;
+	padding: 10px;
+	float:right;
+
+}
+.pcontent {
+	margin-top: 330px;
+	font-size: 19px;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.columns {
+	background-color: #9999;
+	height:160px;
+	width: 30.5%;
+	margin: 20px 1.3%;
+	float: left;
+	overflow: hidden;
+	border: 4px #edb83d;
+	border-style: groove;
+	border-radius: 8px;
+}
+
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 40px;
+	background-color: #2f3131;
+	/*content:url("BobSmith.jpg");*/
+	background-image: url("BobSmith.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.username	{
+	margin-top: 1px;
+	font-size: 15px;
+}
+
+.comment {
+	margin: 10px;
+	/*overflow: auto;*/
+}
+
+.bath {
+	background-image: url(bath.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.bar {
+	background-image: url(bar.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.footer {
+	clear: both;
+
+	background-color: #2f3131;
+	backface-visibility: 50%;
+	
+}
+
+/*.clear	{
+	overflow: auto;
+}
+*/
+.clear:after {
+	content: "";
+	clear: both;
+	display: table;
+}
